@@ -14,12 +14,15 @@ form{
     margin-top:-15px;
     height:20px;
 }
+
 input {
     width: 30%;
     margin-top:0;
     border-top-right-radius: 10px;
 }
-
+#form1{
+    color:white;
+}
 #form2{
     color:white;
     padding:0;
@@ -35,28 +38,31 @@ input {
     border:2px solid pink;
 }
 #pic1{
-    margin-right:20%;
+    margin-right:40px;
     margin-top:1%;
-    border:2px solid green;
-}
+    }
 #pic1a{
-    margin-right:1%;
-    margin-top:-2%; 
-    border:2px solid green;  
+    margin-right:2px;
+    top:-32px; 
+    position: relative; 
 }
-#pic2{
-    margin:8px;
-    margin-top: 10px;
-  /*  border:2px solid red;  */
-  margin-top:6%;
+.pic2{
+   /*  margin-top:20px;   */
+  padding-top: 10px;
+  position: relative; 
+  margin: 0 16px;
+  bottom: -3px;
+  height: 13px;
+  margin: 8px;
+      
 }
 
 nav{
-       width:55%;
-    margin-right: 36%;
-    margin-top: -9%;
-       border:2px solid green;
-   
+       width:700px;
+    margin-right: 250px;
+    margin-top: -95px;
+    height: 70px; 
+     
 }
 .dropbtn{
  /*   background-color: #4CAF50;
@@ -72,13 +78,11 @@ nav{
 .dropdown {
     position: relative;
     display: inline-block;
-    top:0;
+    top:-12px;
         color: white;
      font-size: 15px;
     border: none;
-     border: 2px solid blue;
-    margin-top:-125px;
-   margin-bottom: 8px;
+    height:50px;
 }
 
 .dropdown-content {
@@ -148,7 +152,7 @@ container{
 height: 90px;
 width:228px;
 background-color: rgba(144,144,144,0.9);
-border:2px solid red;
+
 margin-top:-120px;
 color:white;
 margin-right:20px;  
@@ -218,18 +222,18 @@ section{
     padding-right: 6px;
     padding-left: 6px;
     margin:8px;
-    height:20%;
+    height:240px;
 }
 #second-line-img{
     width:95%;
     margin-top:10px;
-     margin-buttom:15px;
+     margin-bottom:15px;
      padding-right: 6px;
      padding-left: 6px;
-     border:1px solid red;
+   
 }
 #second-line-img3{
-    width:15%;
+    width:75px;
     height:130px;
   /*  float:left;  */
    margin-top:2%;
@@ -244,24 +248,26 @@ section{
     clear: both;
     display: table;
 }
-#yellow-dots{
-    border:2px solid red;
-    margin-bottom: 30px;   
+.yellow-dots{
+    border:4px solid pink;
+    margin-bottom: 30px; 
+    margin-right:200px; 
+    top:-18px; 
+    position: relative;
 }
 .bottom-image{
-    margin-right:80px;
+    margin-right:120px;
     font-size:14px;
-    border:2px solid red;
-    width:30%;
+    border:5px solid red;
+    width:50px;
     margin-bottom: 30px; 
 }  
 #last-p{
     font-size:0.7em;
     margin-right:15%;
     position: absolute;
-    border:2px solid red;
+    padding:10px;
 }
 .last-div{
     position:relative;
-    border:2px solid red;
-}
+    }
