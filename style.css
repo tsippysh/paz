@@ -11,22 +11,25 @@ header{
 form{
     margin-right:65%;
     padding-top:1%;
+    margin-top:-15px;
+    height:20px;
 }
 input {
     width: 30%;
-    border:2px solid red;
+    margin-top:0;
+    border-top-right-radius: 10px;
 }
 
 #form2{
     color:white;
     padding:0;
     font-size:0.8em;
-    border:5px solid red;
     margin:0;
-    margin-right:85%;
-
-    top:-13%;
-}
+    margin-right:0;
+    position: relative;
+    margin-top:5px;
+    top: 5px;
+    }
 /*  עיצוב לגבי התפריט*/
 #stamb{
     border:2px solid pink;
