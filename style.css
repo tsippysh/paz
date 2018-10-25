@@ -138,22 +138,46 @@ container{
 .incon{
     width:900px;
     margin:0 auto;
-  
+  position:relative;
     height:4=80vh;
 }
 .text-on-line1{
-height: 8%;
-width:72%;
+height: 90px;
+width:228px;
 background-color: rgba(144,144,144,0.9);
 border:2px solid red;
-margin-top:-50%;
+margin-top:-120px;
 color:white;
-right:-270px;
-/*position: absolute;  */
+margin-right:20px;  
+position: absolute;
+z-index:1;
+border-bottom-right-radius: 25px;
+overflow:hidden;
+margin-bottom: 15px;
+padding-bottom: 10px;
+}
+.text-on-pic{
+    position: absolute;
+    margin-right:-100px;
+    border:2px solid blue;
+    padding-right:10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+h3{font-weight:bold;
+font-size: 14px;
+margin:0;
+padding-right:5px;
+
+}
+.p-on-text{
+    font-size: 13px;
+    margin-top: 4px;
+    padding-right:5px;
+   
 }
 .empty-squares{
-    height: 25%;
-
+    height:216px;
     margin-top:350px;
     border-top-right-radius: 25px;
 }
@@ -164,6 +188,7 @@ right:-270px;
     margin-top:10px;
      padding-right: 6px;
      padding-left: 6px;
+     height:216px;
 }
 
 h6{
