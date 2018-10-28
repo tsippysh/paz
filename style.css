@@ -7,14 +7,15 @@ header{
     height:105px;
     background-color: rgb(144,144,144);
     margin-bottom :15px;
-}
+    padding-right:250px;
+    background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
+  }
 form{
     margin-right:65%;
     padding-top:1%;
     margin-top:-15px;
     height:20px;
 }
-
 input {
     width: 30%;
     margin-top:0;
@@ -34,16 +35,13 @@ input {
     top: 5px;
     }
 /*  עיצוב לגבי התפריט*/
-#stamb{
-    border:2px solid pink;
-}
 #pic1{
     margin-right:40px;
     margin-top:1%;
     }
 #pic1a{
-    margin-right:2px;
-    top:-32px; 
+    margin-right:8px;
+    top:-56px; 
     position: relative; 
 }
 .pic2{
@@ -54,27 +52,17 @@ input {
   bottom: -3px;
   height: 13px;
   margin: 8px;
-      
+     
 }
-
 nav{
        width:700px;
     margin-right: 250px;
     margin-top: -95px;
-    height: 70px; 
-     
+    height: 70px;     
 }
 .dropbtn{
- /*   background-color: #4CAF50;
-    color: white;
-    padding: 25px;  
-    font-size: 56px;
-    border: none;
-    margin:20px;
-    width:15%;*/
     border:5px solid black;    
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -84,23 +72,18 @@ nav{
     border: none;
     height:50px;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(144,144,144);
- /*   min-width: 100px;  */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color:white;
-  
     max-height: 70vh;
     letter-spacing: -1px;
-    
     width:100px;
     padding:1px;
 }
-
 .dropdown-content a {
     color: white;
     padding: 4px 6px;
@@ -112,7 +95,6 @@ nav{
 }
 .rek{
     width:52px;
-    
 }
 .dropdown-content a:hover {
     background-color: rgb(144,144,144);
@@ -130,7 +112,6 @@ border-top:1px solid white;
     letter-spacing: -1px;
     border-bottom-color: white;
 }
-
 .dropdown:hover .dropbtn {
     background-color: rgb(144,144,144);
 color:blue;
@@ -141,7 +122,6 @@ letter-spacing: -1px;
 container{
     margin-top: 15px;
 }
-
 .incon{
     width:900px;
     margin:0 auto;
@@ -152,7 +132,6 @@ container{
 height: 90px;
 width:228px;
 background-color: rgba(144,144,144,0.9);
-
 margin-top:-120px;
 color:white;
 margin-right:20px;  
@@ -175,13 +154,11 @@ h3{font-weight:bold;
 font-size: 14px;
 margin:0;
 padding-right:5px;
-
 }
 .p-on-text{
     font-size: 13px;
     margin-top: 4px;
-    padding-right:5px;
-   
+    padding-right:5px;  
 }
 .empty-squares{
     height:216px;
@@ -189,7 +166,6 @@ padding-right:5px;
     border-top-right-radius: 25px;
 }
 .em-sqarle{
-   
     width:95%;
     border-bottom-right-radius: 25px;
     margin-top:10px;
@@ -200,12 +176,10 @@ padding-right:5px;
 
 h6{
     text-align: center;
-
 }
 section{
     width:33%;
     float:right; 
-
 }
 #first-line-img{
     width:95%;
@@ -213,7 +187,6 @@ section{
     margin-top:35px;
      padding-right: 6px;
      padding-left: 6px;
-   
      position: relative;
 }
 .second-line-square{
@@ -230,12 +203,10 @@ section{
      margin-bottom:15px;
      padding-right: 6px;
      padding-left: 6px;
-   
 }
 #second-line-img3{
     width:75px;
     height:130px;
-  /*  float:left;  */
    margin-top:2%;
     margin-right:60%;
     margin-bottom: -10%;
@@ -249,19 +220,25 @@ section{
     display: table;
 }
 .yellow-dots{
-    border:4px solid pink;
     margin-bottom: 30px; 
-    margin-right:200px; 
-    top:-18px; 
+    margin-right:245px; 
+    top:-13px; 
     position: relative;
 }
 .bottom-image{
-    margin-right:120px;
+    margin-right:170px;
     font-size:14px;
-    border:5px solid red;
     width:50px;
     margin-bottom: 30px; 
+    color:grey;
+    text-decoration: none;
 }  
+.yellow-dots:hover{
+    color:blue;
+}
+  .bottom-image:hover{
+    color:blue;
+}
 #last-p{
     font-size:0.7em;
     margin-right:15%;

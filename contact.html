@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
     <title>midproject</title>
     <link rel="stylesheet" type="text/css" href="style1.css" />
 </head>
-
 <body>
     <header>
         <form>
@@ -16,21 +14,13 @@
 
             <input type="text" placeholder="רשום מילת חיפוש">
             <img id="form2" src="pictures/1/search_button.png">
-        </form>
-         
-
-        
-        
-
-
-
+        </form>   
         <img src="pictures/1/paz_logo.png" id="pic1">
         <!--סמל פז-->
-        <img src="pictures/1/menu_home.png" id="pic1a">
+        <img src="pictures/1/home.png" id="pic1a">
         <!-- תפריט  -->
         <nav>
             <img src="pictures/1/menu_sep.png" class="pic2">
-
             <div class="dropdown" class="dropbtn">אודות
                 <img src="pictures/1/menu_sep.png" class="pic2">
                 <!--<div class="rek"></div>   -->
@@ -43,7 +33,6 @@
                     <a href="#">הנהלת הקבוצה</a>
                     <a href="#">פרסים והוקרה</a>
                 </div>
-
             </div>
             <div class="dropdown" class="dropbtn">חטיבות
                 <img src="pictures/1/menu_sep.png" class="pic2">
@@ -102,32 +91,63 @@
         </nav>
         <!--  סוף תפריט  -->
     </header>
-   
-      
-    <img src="pictures/1/contact_form_bg.png" class="form-pic">
+    <p1> עמוד הבית > צור קשר  </p1>
+    <h4>
+        צור קשר
+    </h4>
+    <h4>
+        _____________________________________________
+    </h4>
+    <img src="pictures/1/contact_form_bg.png" class="form-pic"> 
     <container>
-            <h3>צור קשר</h3>
-         <p>
-         ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
-* השדות המסומנים בכוכבית (*) הינם שדות חובה
-       
-</p> 
-<form>
-    * שם פרטי
-    <input type="text" name="firstname" >
-    <br>
-    * שם משפחה
-    <input type="text" name="lastname" >
-    <br>
-    * טלפון
-    <input type="text" name="phone" >
-    <br>
-    * E-mail
-    <input type="text" name="email" >
-    <br>
-    <input type="submit" value="Submit">
-  </form> 
+            <h3>צור קשר</h3>  <!-- כותרת בכחול-->
+
+         <p id="p-kesher">
+         ליצירת קשר עם קשרי לקוחות אנא מלאו את 
+         הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
+        </p> 
+  <p2>
+* השדות המסומנים בכוכבית (*) הינם שדות חובה    
+</p2>
+<form id="form1">
+<p2>
+        <br>      
+        <label for="name">  * שם פרטי</label>
+        <input class="input1" type="text" name="name"  ><br><br>
+        <label for="name">    * שם משפחה</label>
+        <input class="input1" type="text" name="family"  ><br><br>
+        <label for="name">   * טלפון</label>
+        <input class="input1" type="text" name="phone"  ><br><br>
+        <label for="name">  * E-mail</label>
+        <input class="input1" type="text" name="email"  ><br><br>
+        <input class="texterea" type="texterea" name="email" placeholder="תוכן הפנייה" value="תוכן הפנייה"><br>
+         <button>שלח</button>       
+    </p2>
+  </form1> 
 </container>
+<!--
+    צד שמאל למעלה
+-->
+<div class="left-up">
+        <img id="pic-left-up" src="pictures/1/cube_bg.png">
+        
+     <h3 id="h3left-up">   פרטי יצירת קשר </h3>
+     <p id="p-left-up"> פז חברת נפט בע"מ </p>
+      <p id="p2-left-up" > יורו פארק, בניין הולנד<br>
+        קיבוץ יקום 60972 <br>
+        טל. שירות לקוחות 1-800-774-774  <br>
+        פקס.09-8641714
+</p>  
+</div>
+<!--     צד שמאל למטה-->
+<div class="left-down">
+<img id="pic-left-down" src="pictures/1/cube_bg.png"> 
+<h3 id="h3left-down">עוד בפז</h3>
+<p id="p-left-down">ליצירת קשר עם דוברות פז </p>
+<a id="a-left-down" href="https://web.archive.org/web/20170705155824/mailto:%20d@paz.co.il"  >לחצו כאן>>  </a>
+<p id="p-left-down1">רוצים לעבוד בפז?  </p>
+<a id="a-left-down1" href="https://web.archive.org/web/20170705193114/http://www.paz.co.il/index.aspx?id=4168"  >לחצו כאן>>  </a>
+</div>
 </body>
 
 </html>
